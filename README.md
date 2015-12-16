@@ -2,7 +2,7 @@
 
 HTWG Latex Template (ohne Bugs)
 
-Dieses Template wurde nach Abgabe der Thesis zusammengestellt. Es ist schöner als das Default-Template der HTWG-Konstanz aber könnte noch Fehler enthalten. Falls Fehler gefunden werden oder weitere nützliche Funktionen/Einstellungen nützlich sind, können Pull Requests gerne gestellt werden.
+Dieses Template wurde nach Abgabe der Thesis zusammengestellt. Es ist schöner als das Default-Template der HTWG-Konstanz aber könnte noch Fehler enthalten. Falls Fehler gefunden werden oder weitere Funktionen/Einstellungen nützlich sind, können gerne Pull Requests gestellt werden.
 
 
 ## anderer Style + Bugfixes
