@@ -7,3 +7,13 @@
 \DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
 \captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
 
+% Entfernt Kapitel Ueberschrift
+% Bsp.
+% 	ALT:
+%       Kapitel 1
+%       Einführung
+%
+% 	NEU:
+% 		1 Einführung
+%
+\renewcommand*\chapterheadstartvskip{\vspace{-\topskip}}
