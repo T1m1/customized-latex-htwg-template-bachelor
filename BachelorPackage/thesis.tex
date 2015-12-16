@@ -12,12 +12,18 @@
 
 
 \begin{document}
+%% Nummerierung aus
+\pagenumbering{gobble}
 
 % HTWG Tempaltes fuer Titelseite etc.
 \include{htwg/cover}
 \include{htwg/title}
 \include{htwg/abstract}
 \include{htwg/affidavit}
+
+%% Starte Paginierung
+\cleardoublepage
+\pagenumbering{arabic}
 
 \include{kapitel1/einfuehrung}
 
@@ -28,6 +34,10 @@
 \include{kapitel3/thema3}
 \include{kapitel3/thema4}
 
+
+\listoffigures
+\lstlistoflistings 
+\listoftables 
 
 \bibliographystyle{apalike}
 \bibliography{citeulike}
