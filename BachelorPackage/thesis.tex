@@ -1,34 +1,24 @@
-\documentclass[11pt,a4paper]{report}		                                   
+\documentclass[
+		11pt,
+		a4paper
+		]{report}		                                   
 
-\usepackage{graphicx}
-\usepackage{a4}
-\usepackage{german}
+\input{preamble/packete}
+\input{preamble/optionen}
+\input{preamble/variablen}
 
-
-\newcommand{\thema}{$[$Thema der Bachelorarbeit$]$}
-\newcommand{\schlagworte}{$[$Platz, f\"ur, spezifische, Schlagworte, zur, Ausarbeitung $]$}
-\newcommand{\zusammenfassung}{$[$Text der Zusammenfassung etwa 150 Worte. Es soll der 
-	L"osungsweg beschrieben sein.$]$}
-\newcommand{\ausgabedatum}{$[$Datum$]$}
-\newcommand{\abgabedatum}{$[$Datum$]$}
-\newcommand{\autor}{$[$Vor- und Zuname des/der Bachelorkandidaten/in$]$}
-\newcommand{\autorStrasse}{$[$Stra"se$]$}
-\newcommand{\autorPLZ}{$[$PLZ$]$}
-\newcommand{\autorOrt}{$[$Ort$]$}
-\newcommand{\autorGeburtsort}{$[$Geburtsort$]$}
-\newcommand{\autorGeburtsdatum}{$[$Datum$]$}
-\newcommand{\prueferA}{$[$Titel, Vor- und Zuname des 1. Pr"ufers$]$}
-\newcommand{\prueferB}{$[$Titel, Vor- und Zuname des 2. Pr"ufers$]$}
-\newcommand{\firma}{$[$HTWG oder Firmenname$]$}
-\newcommand{\studiengang}{$[$Software-Engineering/Technische Informatik/Wirtschaftsinformatik$]$}
 
 
 \begin{document}
 
-\include{cover}
-\include{title}
-\include{abstract}
-\include{affidavit}
+% HTWG Tempaltes fuer Titelseite etc.
+\include{htwg/cover}
+\include{htwg/title}
+\include{htwg/abstract}
+\include{htwg/affidavit}
+
+
+
 
 \end{document}
 
