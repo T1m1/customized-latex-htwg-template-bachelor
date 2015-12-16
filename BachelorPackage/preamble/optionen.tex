@@ -1,0 +1,9 @@
+\setcounter{tocdepth}{2}  %% Uebreschriften bis subsectionw ins Inhaltsverzeichnis
+\setcounter{secnumdepth}{3}  %% Nummerierung bis subsection
+
+
+%%% Codebeispiele - Style
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+
