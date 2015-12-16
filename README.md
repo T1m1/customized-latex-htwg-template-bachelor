@@ -1,5 +1,6 @@
-# customized-latex-htwg-template (ohne HTWG-Template Bugs)
-HTWG Latex Template
+# customized-latex-htwg-template
+
+HTWG Latex Template (ohne Bugs)
 
 Dieses Template wurde nach Abgabe der Thesis zusammengestellt. Es ist schöner als das Default-Template der HTWG-Konstanz aber könnte noch Fehler enthalten. Falls Fehler gefunden werden oder weitere nützliche Funktionen/Einstellungen nützlich sind, können Pull Requests gerne gestellt werden.
 
