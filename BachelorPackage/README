@@ -1,10 +1,10 @@
 
-Dieses Packet zum Erstellen einer Abschlussarbeit in LaTeX enthaelt die
-notwendigen Dateien fuer das Deckblatt (cover.tex), die Titelseite (title.tex), 
+Dieses Paket zum Erstellen einer Abschlussarbeit in LaTeX enthaelt die
+notwendigen Dateien fuer das Deckblatt (cover.tex), die Titelseite (title.tex),
 die Zusammenfassung (abstract.tex) und die ehrenwoehrtliche Erklaerung
-(affidavit.tex). Die Datei thesis.tex dient als Muster dafuer, wie die anderen 
-Dateien inkludiert werden und wie die benutzerspezifischen Angaben gesetzt 
-werden muessen. Die Dateien 
+(affidavit.tex). Die Datei thesis.tex dient als Muster dafuer, wie die anderen
+Dateien inkludiert werden und wie die benutzerspezifischen Angaben gesetzt
+werden muessen. Die Dateien
 . abstract.tex
 . affidavit.tex
 . cover.tex
