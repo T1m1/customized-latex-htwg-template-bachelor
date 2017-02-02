@@ -26,6 +26,9 @@
 
 \input{acronym}
 
+\newcounter{prepend}
+\setcounter{prepend}{\value{page}} % save page count for appendix
+
 %% Starte Paginierung
 \cleardoublepage
 \pagenumbering{arabic}
@@ -39,6 +42,8 @@
 \include{kapitel3/thema3}
 \include{kapitel3/thema4}
 
+\pagenumbering{Roman}
+\setcounter{page}{\value{prepend} + 1} % continue roman page count for appendix
 
 \listoffigures
 \lstlistoflistings
