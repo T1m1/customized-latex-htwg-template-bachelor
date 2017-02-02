@@ -17,3 +17,24 @@
 % 		1 Einführung
 %
 \renewcommand*\chapterheadstartvskip{\vspace{-\topskip}}
+
+\begin{comment}
+    % removes indentation of paragraphs
+    \setlength{\parindent}{0pt
+\end{comment}
+
+\begin{comment}
+    % creates footnotes for the first use of an acronym
+    \makeatletter
+    \renewcommand{\ac}{\protect\@ac}%
+    \renewcommand{\@ac}[1]{%
+        \expandafter\ifx\csname ac@#1\endcsname\AC@used
+            \acs{#1}%
+        \else \acs{#1}\footnote{\acl{#1}}%
+            \global\expandafter\let\csname ac@#1\endcsname\AC@used%
+            \AC@addtoAC@clearlist{#1}%
+            \AC@logged{#1}
+        \fi
+    }
+    \makeatother
+\end{comment}
